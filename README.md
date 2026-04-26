@@ -84,6 +84,19 @@ git pull
 | tcpdump | `pkg install tcpdump` |
 | Root | `pkg install tsu` |
 
+# 1. Pakete installieren
+pkg update && pkg install python tcpdump tsu -y
+
+# 2. Repo klonen
+git clone https://github.com/Sfffff954/TermShark-f-r-Termux-Wireshark--hnlicher-Paketsniffer-.git
+
+# 3. Rein
+cd TermShark-f-r-Termux-Wireshark--hnlicher-Paketsniffer-
+
+# 4. Starten
+tsu
+python termshark.py
+
 ---
 
 ## Lizenz
